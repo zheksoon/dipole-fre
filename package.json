@@ -1,0 +1,48 @@
+{
+  "name": "dipole-fre",
+  "version": "1.0.0",
+  "description": "fre bindings for dipole reactive state management library",
+  "source": "index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
+  "exports": {
+    ".": {
+      "browser": "./dist/index.js",
+      "umd": "./dist/index.umd.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "microbundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zheksoon/dipole-fre.git"
+  },
+  "keywords": [
+    "fre",
+    "dipole",
+    "state management",
+    "reactive",
+    "observable",
+    "computed",
+    "frp",
+    "tfrp"
+  ],
+  "author": "Eugene Daragan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zheksoon/dipole-fre/issues"
+  },
+  "homepage": "https://github.com/zheksoon/dipole-fre#readme",
+  "devDependencies": {
+    "microbundle": "^0.14.1"
+  },
+  "peerDependencies": {
+    "dipole": "^2.2.4",
+    "fre": "^2.4.3"
+  }
+}
